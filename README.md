@@ -2,7 +2,7 @@
   <img src="icons/redacted.png" alt="RedactKit Icon" width="100" />
 </p>
 
-# RedactKit — Because Some Words Aren’t Meant to Be Seen
+# RedactKit — Redact It All, Protect It All
 
 **RedactKit** is a Firefox extension that helps you protect your privacy by automatically hiding sensitive or personal words on any webpage. Whether it’s your **name, email, or anything else**, RedactKit replaces those words with `[REDACTED]` in real-time, even in form fields and the browser tab title.
 
