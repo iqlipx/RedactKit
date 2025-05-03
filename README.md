@@ -6,10 +6,10 @@
 
 **RedactKit** is a Firefox extension that helps you protect your privacy by automatically hiding sensitive or personal words on any webpage. Whether it’s your **name, email, or anything else**, RedactKit replaces those words with `[REDACTED]` in real-time, even in form fields and the browser tab title.
 
-Ideal for streamers, screen-sharers, and anyone tired of manually blurring out their life.
+Perfect for **streamers** 🎮, **screen-sharers** 💻, or anyone tired of manually blurring out their personal info 🔒.
 
 
-## 🚀 What It Brings to the Table
+## What It Brings to the Table
 
 - Instant redaction of chosen words on any website
 - Covers everything — page text, input fields, tab titles, and more
@@ -19,13 +19,13 @@ Ideal for streamers, screen-sharers, and anyone tired of manually blurring out t
 - 100% local – doesn’t ping a single external server
 
 
-## 🔍 Real-Life Uses
+## Real-Life Uses
 
-- Going live? Keep names, emails, or passwords off your stream
-- Sharing your screen at work? Hide sensitive client or internal terms
+- Going live? 🎥 Keep names, emails, or passwords off your stream 🚫
+- Sharing your screen at work? 💼 Hide sensitive client or internal terms 📄
 
 
-## 🎛️ Getting Started
+## Getting Started
 
 1. Tap the **RedactKit icon** in your Firefox toolbar  
 2. Drop in the words you want to block (comma-separated)  
@@ -35,7 +35,25 @@ Ideal for streamers, screen-sharers, and anyone tired of manually blurring out t
 5. That’s it — surf as usual. We’ll handle the hiding.
 
 
-## 🔐 Privacy That Respects Yours
+## Screenshots
+
+### First Look – Extension Overview  
+Here’s what the extension looks like when you first open it:
+
+![Extension First Look](screenshots/Redactkit.png)
+
+### Redaction in Action  
+Watch how your selected words are replaced instantly across the webpage:
+
+![Redaction Example](./screenshots/InAction.png)
+
+### Tab Title Redacted  
+Even the browser tab title gets scrubbed for extra privacy:
+
+![Tab Title Redacted](./screenshots/TabRedacted.png)
+
+
+## Privacy That Respects Yours
 
 - No logs. No trackers. No cloud.  
 - Everything runs locally, right in your browser  
@@ -47,7 +65,7 @@ Ideal for streamers, screen-sharers, and anyone tired of manually blurring out t
 Need to tweak your list? Just open the extension, update your keywords, and save — changes go live instantly.
 
 
-## 🧑‍🎨 Crafted By
+## Crafted By
 
-Made with privacy in mind by [iqlip](https://github.com/iqlipx).  
+Made with privacy in mind by [iqlip](https://github.com/iqlipx).
 Because your screen should only show what you choose to share.
