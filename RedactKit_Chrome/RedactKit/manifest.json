@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "RedactKit",
+  "version": "1.0",
+  "description": "Hide user-defined sensitive words from any website.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "action": {
+    "default_title": "RedactKit",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/redacted.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "icons/redacted.png"
+  }
+}

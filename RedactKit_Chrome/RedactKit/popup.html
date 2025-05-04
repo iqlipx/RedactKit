@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Redact Words</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="popup-container">
+      <h2>RedactKit</h2>
+      
+      <div class="tool-description">
+        <p>Hide sensitive or personal words on any webpage in real-time — even from the tab title — for enhanced privacy.</p>
+      </div>
+
+      <form>
+        <label for="words">Sensitive Words:
+          <span class="tooltip">❔
+            <span class="tooltiptext">
+              Enter comma-separated words to redact. Example: name, username, email.
+            </span>
+          </span>
+        </label>
+
+        <textarea id="words" aria-label="Words to redact" placeholder="Enter words, separated by commas"></textarea>
+        
+        <button type="button" id="saveBtn">💾 Save</button>
+        
+        <div class="toggle-container">
+          <label for="toggle">Enable Redaction:</label>
+          <input type="checkbox" id="toggle" aria-label="Enable or disable redaction feature" />
+        </div>
+      </form>
+
+      <p id="status" class="status-message" role="status" aria-live="polite"></p>
+
+      <footer class="footer">
+        <p>Built for privacy-conscious users and streamers.</p>
+        <p><a href="https://github.com/iqlipx" target="_blank" rel="noopener noreferrer">Made By iqlip</a></p>
+      </footer>
+    </div>
+    
+    <script src="popup.js"></script>
+  </body>
+</html>
